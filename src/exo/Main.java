@@ -45,6 +45,9 @@ public class Main {
 		groupe.lister();
 		
 		
+		System.out.println(eleve3.getName());
+		
+		
 		ArrayList<EleveECTS> listeEleves = new ArrayList<EleveECTS>();
 		EleveECTS unEleve = new Eleve1A("Marie");
 		unEleve.ajouterNote(12);
